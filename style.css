@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+  
+body {
+   margin: 0;
+   padding: 0;
+   
+}
+
+main {
+    width:40%;
+    height:40%;
+    margin-right: 10px;
+    margin-left: 20px;
+    width: 1440px; /* Largura desejada */
+    height: 1024px; /* Altura desejada */
+    margin: 0;
+    background-color: #F3F5FC; /* Cor de fundo para visualização */
+    padding: 0; /* Espaçamento interno para visualização */
+    box-sizing: border-box; /* Inclui padding na largura/altura total */
+    
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 40px;
+}       
+
+.container {
+    width:100px;
+    display: flex;
+    margin: auto;
+    justify-content:left;
+    width: 1440px; 
+    height: px
+}
+
+
+
+.box__input {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+    height: 680px;
+    padding: 0px;
+    margin-top: 168px;
+    justify-content:flex-start;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 32PX;
+    font-style: normal;
+    text-align: left;
+    color: #0A3871;
+    
+    
+        }
+
+.digite-texto {
+    display: flex;
+    margin-top: 168 ;
+    width:100%;
+    text-align:left;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 32px;
+    font-style: normal;
+    
+}
+   
+.textarea {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 32px;
+    font-style: normal;
+    text-align: left;
+} 
+
+
+ .digite-texto textarea {
+    border: none;
+    background: none;
+    width: 50%;
+    font-size: 28px;
+    color: #495057;
+    resize: none;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.botoes {
+    display: flex;
+    width:100%;
+    align-content: 0;
+    margin-top: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16;
+    font-style: normal;
+    margin-bottom: 72px;
+
+ 
+}
+
+
+.digite-texto textarea:focus {
+    border: 0 none;
+    outline: 0;
+    color: #0A3871;
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+/*Área do resultado da encriptação*/
+
+.saida {
+    display: flex;
+    justify-content:center;
+    width: 400px;
+    height: 944px;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 40px;
+   
+    
+
+
+}
+
+.conteudo-resultado-vazio {
+    display: flex;
+    background: #fefefe;
+    text-align: center;
+    width: 20%;
+    padding: 0px 0;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    height: 944px;
+    width: 400px;
+    
+
+
+    
+    
+}
+
+
+.conteudo-resultado-ok {
+    display: flex;
+    background: #fefefe;
+    text-align: center;
+    width: 20%;
+    padding: 0px 0;
+    border-radius: 20px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    height: 944px;
+    width: 400px;
+    
+}
+
+.conteudo-resultado-ok textarea {
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 20px;
+    color: #0A3871;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.conteudo-resultado-ok textarea:focus {
+    outline: 0;
+}
+
+
+
+.cripto {
+    padding: 20px;
+    width: 336px;
+    margin-right: 20px;
+    padding: 20px;
+    width: 270px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.descripto {
+    padding: 20px;
+    width: 336px;
+    padding: 17px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-weight: normal;
+    cursor: pointer;
+   
+}
+
+
+.copiar {
+    padding: 0px;
+    width: 336px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 0px;
+    margin-top: 10px;
+    
+}
+
+.cripto {
+    padding: 20px;
+    width: 336px;
+    background: #0A3871;
+    color: white;
+    font-family: "Inter", sans-serif;
+    
+    font-weight: 16px;
+    font-style: normal;
+    
+}
+
+.cripto:hover, .descripto:hover, .copiar:hover {
+    transform: scale(1.2);
+}
+
+/*#img {
+    padding-left: 32px;
+    padding-top: 243px;
+    padding-right: 32px;
+    padding-bottom: 297px;
+    width:336;
+    height:304px ;
+      
+}*/
+.digite__texto {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 200px;
+    width: 100;
+    
+}
+
+#logo {
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40PX;
+    margin-bottom: 944px;
+}
+    
+
+.conteudo-resultado-vazio img {
+    display: flex; /* Garante que a imagem não tenha margens indesejadas */
+    margin-top: 243px; /* Centraliza a imagem horizontalmente */
+    margin-left: 32px;
+}
+
+.conteudo-resultado-vazio h2 {
+    margin-right:0px;
+}
+.conteudo-resultado-vazio p {
+    margin-top: 0px; /* Espaçamento superior entre a imagem e os textos */
+    
+}
+
+h2 {
+  display: flex;  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 24px;
+  font-style: normal;
+  width:300px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-left: 40px;
+}
+
+p2 {
+  display: flex;  
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 16px;
+  font-style: normal;
+  width:280px;
+  padding-top: 0;
+  padding-left: 50px;
+
+}
+
+p {
+      
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 16px;
+  font-style: normal;
+    
+}
+
+textarea {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 32px;
+  font-style: normal;
+}
+
+#text-output {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 336px;
+    height: 781px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+.rodape {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style: normal;
+  justify-content: center;
+  color:aquamarine;
+  background-color: #0A3871;
+  
+
+}
+
+a {
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  padding-left: 10px;
+ 
+}
